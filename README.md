@@ -1,7 +1,7 @@
 # Hello! Today I will tell you how to get an active developer badge in the discord
 ![Alt-Developer Badge](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREt6DJ1OVMmDZCze67sft2tRlgaBSR1Ifyf97F8zxUqQ&s)
 
-## Note! GitHub cannot accept more than 100 files. I have a lot of them. I did not upload them to this repository again. Click on the link (https://github.com/toptipus/activedeveloper/archive/refs/heads/main .zip) and download all the files from here.
+## Note! GitHub cannot accept more than 100 files. I have a lot of them. I did not upload them to this repository again. Click on the link (https://github.com/toptipus/activedeveloper/archive/refs/heads/main.zip) and download all the files from here.
 
 ### 1. Create and configure a bot
 You need to create a reid bot by following the link (https://discord.com/developers/applications ). Click "New Applications", write the name and check the box.
