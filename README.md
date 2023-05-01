@@ -43,7 +43,7 @@ Without installing NodeJS, you will not succeed. Click on the link (https://node
 Go to the settings of your discord server. We find the "create a community" tab there. Creating
 ![Alt-Server](https://i.imgur.com/SV8Ezsj.png)
 
-###5. Launching the bot
+### 5. Launching the bot
 In order for the bot to start working, you need to run the "start_bot.bat" file. In the console, you should have written "The name of your bot READY". 
 ![Alt-start bot](https://i.imgur.com/JcxGRaM.png)
 
@@ -51,6 +51,6 @@ Go to your server's chat and write the command "/ping". The bot will answer you 
 
 ![Alt-start bot](https://i.imgur.com/vI54904.png)
 
-###6. Getting the badge
+### 6. Getting the badge
 To get the badge, you need to follow the link (https://discord.com/developers/active-developer ) and press the button in the middle. The receiving process takes from 24 hours
 ![Alt-start bot](https://i.imgur.com/BBroFT0.png)
